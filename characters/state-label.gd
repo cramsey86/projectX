@@ -12,8 +12,5 @@ var _state_text = {
 	Player.States.RESPAWN: "respawn"
 }
 
-func setup(character):
-	character.connect("state_changed", self, "_on_Character_state_changed")
-
 func _on_Character_state_changed(state):
 	text = _state_text[state]
