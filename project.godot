@@ -23,6 +23,11 @@ config/icon="res://icon.png"
 
 utils="*res://helpers/utils.gd"
 
+[display]
+
+window/size/width=1280
+window/size/height=960
+
 [input]
 
 move_left={
